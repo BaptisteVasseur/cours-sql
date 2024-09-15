@@ -1,0 +1,87 @@
+# TP Pokémons
+
+## Introduction 
+
+Le but du TP est de découvrir le fonctionnement d'une base de données en effectuant des requêtes SQL simples. Ensuite vous devrez être capable de créer votre propre base de donnée, en ajoutant des tables, en les modifiants et en les supprimant. Tout en sachant comment ajouter vous même manuellement des données à l'intérieur des tables. 
+
+## Création de la base de donnée 
+
+1 - Lire le cahier des charges 
+2 - Avec le cahier des charges, faire le diagramme UML des tables 
+3 - Ajouter les différentes colonnes pour chaque table (nom + type)
+4 - Lier les tables entre elles 
+
+5 - Pour chaque table, créer les requêtes SQL de création des tables
+6 - Ajouter les clés étrangères entre les tables
+
+## Ajouter des données
+
+7 - Ajouter des types de pokémons (eau, feu, ...)
+8 - Ajouter des pokémons (salameche, pickachu, bulbizarre, carapuce, ...)
+9 - Ajouter des dresseurs (Jean-michel, Romuald, Jacques, ...)
+10 - Ajouter des arènes (mettre des noms aléatoires)
+
+## Lire les données 
+
+11 - Tester les requêtes SQL suivantes : 
+
+- Récupérer le nom de tous les Pokémon.	
+- Récupérer l’ID et le nom de tous les Pokémon.
+- Récupérer toutes les colonnes de la table pokemons.
+- Utiliser des alias pour renommer les colonnes dans les résultats.
+- Récupérer les 10 premiers Pokémon.
+- Récupérer 10 Pokémon, en sautant les 10 premiers.
+- Récupérer tous les Pokémon, triés par leur nom en ordre croissant.
+- Récupérer tous les Pokémon, triés par leur nom en ordre décroissant.
+- Récupérer le Pokémon ayant un pokedex_id de 42.
+- Récupérer les Pokémon dont le pokedex_id est supérieur à 10 avec une limit de 10
+- Récupérer les Pokémon ayant un pokedex_id de 42, 69 ou 99.
+- Récupérer les Pokémon ayant un pokedex_id compris entre 10 et 20.
+- Récupérer les Pokémon ayant un pokedex_id de 42 ou de 69.
+- Récupérer les Pokémon dont le nom est exactement “Pikachu”.
+- Récupérer les Pokémon dont le nom se termine par “chu”.
+- Récupérer les Pokémon dont le nom commence par “Fl”.
+- Récupérer les Pokémon dont le nom contient “ch”.
+- Récupérer le pokémon qui à le plus de PV
+
+- Récuperer l'id du type qui à le nom "eau"
+- Avec cette id, filter les pokémons qui ont ce type
+
+## Lier les pokémons entre eux 
+
+12 - Lier les pokémons avec leurs types
+13 - Lier les pokemons aux dresseurs
+
+## Lire les données (suite)
+
+14 - Tester les requêtes SQL suivantes : 
+
+- Récuperer le nom des Pokémon et leur type en joignant les tables pokemons et types.
+- Récupérer les Pokémon de type “Feu”.
+- Récuperer les Pokémon avec leur type, triés par le nom du type.
+
+- Compter le Nombre de Pokémon par Type
+- Trouver le Nombre Total de Pokémon
+- Trouver le Nombre Moyen de Points de Vie (HP) par Type
+- Trouver les trois types ayant le plus de Pokémon.
+- Identifier le Pokémon qui a le plus grand nombre d’attaques
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
