@@ -1,10 +1,14 @@
 # TP Pokémons
 
+
 ## Introduction 
+
 
 Le but du TP est de découvrir le fonctionnement d'une base de données en effectuant des requêtes SQL simples. Ensuite vous devrez être capable de créer votre propre base de donnée, en ajoutant des tables, en les modifiants et en les supprimant. Tout en sachant comment ajouter vous même manuellement des données à l'intérieur des tables. 
 
+
 ## Création de la base de donnée 
+
 
 1 - Lire le cahier des charges 
 2 - Avec le cahier des charges, faire le diagramme UML des tables 
@@ -14,14 +18,18 @@ Le but du TP est de découvrir le fonctionnement d'une base de données en effec
 5 - Pour chaque table, créer les requêtes SQL de création des tables
 6 - Ajouter les clés étrangères entre les tables
 
+
 ## Ajouter des données
+
 
 7 - Ajouter des types de pokémons (eau, feu, ...)
 8 - Ajouter des pokémons (salameche, pickachu, bulbizarre, carapuce, ...)
 9 - Ajouter des dresseurs (Jean-michel, Romuald, Jacques, ...)
 10 - Ajouter des arènes (mettre des noms aléatoires)
 
+
 ## Lire les données 
+
 
 11 - Tester les requêtes SQL suivantes : 
 
@@ -47,12 +55,16 @@ Le but du TP est de découvrir le fonctionnement d'une base de données en effec
 - Récuperer l'id du type qui à le nom "eau"
 - Avec cette id, filter les pokémons qui ont ce type
 
+
 ## Lier les pokémons entre eux 
+
 
 12 - Lier les pokémons avec leurs types
 13 - Lier les pokemons aux dresseurs
 
+
 ## Lire les données (suite)
+
 
 14 - Tester les requêtes SQL suivantes : 
 
@@ -60,28 +72,20 @@ Le but du TP est de découvrir le fonctionnement d'une base de données en effec
 - Récupérer les Pokémon de type “Feu”.
 - Récuperer les Pokémon avec leur type, triés par le nom du type.
 
+
+## Importer une base de donnée
+
+
+15 - Supprimer toutes vos tables 
+16 - Importer le fichier bdd.sql (ce fichier est sur github) (en l'important via MySQLWorkbench ou en executant les requêtes SQL du fichier 1 par 1)
+
+
+## Lire les données (suite)
+
+
 - Compter le Nombre de Pokémon par Type
 - Trouver le Nombre Total de Pokémon
 - Trouver le Nombre Moyen de Points de Vie (HP) par Type
 - Trouver les trois types ayant le plus de Pokémon.
 - Identifier le Pokémon qui a le plus grand nombre d’attaques
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
