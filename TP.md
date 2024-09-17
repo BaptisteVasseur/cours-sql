@@ -51,9 +51,7 @@ Le but du TP est de découvrir le fonctionnement d'une base de données en effec
 - Récupérer les Pokémon dont le nom commence par “Fl”.
 - Récupérer les Pokémon dont le nom contient “ch”.
 - Récupérer le pokémon qui à le plus de PV
-
-- Récuperer l'id du type qui à le nom "eau"
-- Avec cette id, filter les pokémons qui ont ce type
+- Filtrer les pokémons qui ont le type "eau"
 
 
 ## Lier les pokémons entre eux 
@@ -69,7 +67,7 @@ Le but du TP est de découvrir le fonctionnement d'une base de données en effec
 14 - Tester les requêtes SQL suivantes : 
 
 - Récuperer le nom des Pokémon et leur type en joignant les tables pokemons et types.
-- Récupérer les Pokémon de type “Feu”.
+- Récupérer les Pokémon de type “Feu” (en faisant le tri via le nom présent dans la table type).
 - Récuperer les Pokémon avec leur type, triés par le nom du type.
 
 
@@ -77,7 +75,7 @@ Le but du TP est de découvrir le fonctionnement d'une base de données en effec
 
 
 15 - Supprimer toutes vos tables 
-16 - Importer le fichier bdd.sql (ce fichier est sur github) (en l'important via MySQLWorkbench ou en executant les requêtes SQL du fichier 1 par 1)
+16 - Importer le fichier bdd.sql (ce fichier est sur github)
 
 
 ## Lire les données (suite)
@@ -88,4 +86,11 @@ Le but du TP est de découvrir le fonctionnement d'une base de données en effec
 - Trouver le Nombre Moyen de Points de Vie (HP) par Type
 - Trouver les trois types ayant le plus de Pokémon.
 - Identifier le Pokémon qui a le plus grand nombre d’attaques
-
+- Trouver en quelle année il y à le plus de combats
+- Trouver le pokémon qui est le plus souvent dans une équipe
+- Trouver les pokémons les moins utilisés dans les équipes 
+- Faire le classement des arènes les plus dure à battre
+- Retrouver la somme que le dresseur n°5 à dans son inventaire (en faisant le calcul des transactions)
+- Trouver les objets les plus achetés 
+- Trouver les objets les moins achetés 
+- Trouver le pokémon le plus fort 
