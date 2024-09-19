@@ -51,7 +51,8 @@ Le but du TP est de découvrir le fonctionnement d'une base de données en effec
 - Récupérer les Pokémon dont le nom commence par “Fl”.
 - Récupérer les Pokémon dont le nom contient “ch”.
 - Récupérer le pokémon qui à le plus de PV
-- Filtrer les pokémons qui ont le type "eau"
+- 
+
 
 
 ## Lier les pokémons entre eux 
@@ -91,8 +92,6 @@ Le but du TP est de découvrir le fonctionnement d'une base de données en effec
 - Trouver les pokémons les moins utilisés dans les équipes 
 - Faire le classement des arènes les plus dure à battre
 - Retrouver la somme que le dresseur n°5 à dans son inventaire (en faisant le calcul des transactions)
-- Trouver les objets les plus achetés 
-- Trouver les objets les moins achetés 
 - Trouver le pokémon le plus fort 
 
 
