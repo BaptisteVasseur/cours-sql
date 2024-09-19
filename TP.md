@@ -94,3 +94,22 @@ Le but du TP est de découvrir le fonctionnement d'une base de données en effec
 - Trouver les objets les plus achetés 
 - Trouver les objets les moins achetés 
 - Trouver le pokémon le plus fort 
+
+
+
+
+
+# TP Pokémons 2
+
+- Lister le nom de tout les dresseurs inscrits (il ne faut pas de doublons dans la liste)
+- Lister les arènes créées avant l’année 2014
+- Afficher les objets et leur prix
+- Afficher tous les objets d’une certaine catégorie, par exemple ‘Potion’
+- Trouver le nombre de dresseurs inscrits
+- Trouver toutes les consoles différentes possédées par les dresseurs
+- Afficher les Pokémon et leur indice de combat (attaque + défense)
+- Trouver les Pokémon avec un rapport attaque/défense supérieur à 1.2
+- Calculer l’âge des dresseurs en années (approximation)
+- Selectionner le nom, poid et taille des pokémon ordonnés par taille de façon croissante ET par poids de façon décroissante
+- Lister les noms des Pokémon stockés dans l’équipe d’un dresseur 
+- Afficher les transactions de type ‘Achat’
