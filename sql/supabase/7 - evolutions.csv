@@ -1,0 +1,907 @@
+pokedex_id,type,evolution_id,condition
+1,next,2,Niveau 16
+2,previous,1,Niveau 16
+2,next,3,Niveau 32
+3,previous,1,Niveau 16
+4,next,5,Niveau 16
+5,previous,4,Niveau 16
+5,next,6,Niveau 36
+6,previous,4,Niveau 16
+7,next,8,Niveau 16
+8,previous,7,Niveau 16
+8,next,9,Niveau 36
+9,previous,7,Niveau 16
+10,next,11,Niveau 7
+11,previous,10,Niveau 7
+11,next,12,Niveau 10
+12,previous,10,Niveau 7
+13,next,14,Niveau 7
+14,previous,13,Niveau 7
+14,next,15,Niveau 10
+15,previous,13,Niveau 7
+16,next,17,Niveau 18
+17,previous,16,Niveau 18
+17,next,18,Niveau 36
+18,previous,16,Niveau 18
+19,next,20,Niveau 20
+20,previous,19,Niveau 20
+21,next,22,Niveau 20
+22,previous,21,Niveau 20
+23,next,24,Niveau 22
+24,previous,23,Niveau 22
+25,previous,172,Bonheur
+25,next,26,Pierre Foudre
+26,previous,172,+1 Niveau + Bonheur
+27,next,28,Niveau 22
+28,previous,27,Niveau 22
+29,next,30,Niveau 16
+30,previous,29,Niveau 16
+30,next,31,Pierre Lune
+31,previous,29,Niveau 16
+32,next,33,Niveau 16
+33,previous,32,Niveau 16
+33,next,34,Pierre Lune
+34,previous,32,Niveau 16
+35,previous,173,Bonheur
+35,next,36,Pierre Lune
+36,previous,173,Bonheur
+37,next,38,Pierre Feu
+38,previous,37,Pierre Feu
+39,previous,174,Bonheur
+39,next,40,Pierre Lune
+40,previous,174,Bonheur
+41,next,42,Niveau 22
+42,previous,41,Niveau 22
+42,next,169,Bonheur
+43,next,44,Niveau 21
+44,previous,43,Niveau 21
+44,next,45,Pierre Plante
+45,previous,43,Niveau 21
+46,next,47,Niveau 24
+47,previous,46,Niveau 24
+48,next,49,Niveau 31
+49,previous,48,Niveau 31
+50,next,51,Niveau 26
+51,previous,50,Niveau 26
+52,next,53,Niveau 28
+53,previous,52,Niveau 28
+54,next,55,Niveau 33
+55,previous,54,Niveau 33
+56,next,57,Niveau 28
+57,previous,56,Niveau 28
+57,next,979,Utilise 20 fois la capacite Poing de Colere + gain de niveau
+58,next,59,Pierre Feu
+59,previous,58,Pierre Feu
+60,next,61,Niveau 25
+61,previous,60,Niveau 25
+61,next,62,Pierre Eau
+62,previous,60,Niveau 25
+63,next,64,Niveau 16
+64,previous,63,Niveau 16
+64,next,65,Echange/Au contact d\'un Fil de Liaison
+65,previous,63,Niveau 16
+66,next,67,Niveau 28
+67,previous,66,Niveau 28
+67,next,68,Echange/Au contact d\'un Fil de Liaison
+68,previous,66,Niveau 28
+69,next,70,Niveau 21
+70,previous,69,Niveau 21
+70,next,71,Pierre Plante
+71,previous,69,Niveau 21
+72,next,73,Niveau 30
+73,previous,72,Niveau 30
+74,next,75,Niveau 25
+75,previous,74,Niveau 25
+75,next,76,Echange/Au contact d\'un Fil de Liaison
+76,previous,74,Niveau 25
+77,next,78,Niveau 40
+78,previous,77,Niveau 40
+79,next,80,Niveau 37
+80,previous,79,Niveau 37
+81,next,82,Niveau 30
+82,previous,81,Niveau 30
+84,next,85,Niveau 31
+85,previous,84,Niveau 31
+86,next,87,Niveau 34
+87,previous,86,Niveau 34
+88,next,89,Niveau 38
+89,previous,88,Niveau 38
+90,next,91,Pierre Eau
+91,previous,90,Pierre Eau
+92,next,93,Niveau 25
+93,previous,92,Niveau 25
+93,next,94,Echange/Au contact d\'un Fil de Liaison
+94,previous,92,Niveau 25
+95,next,208,Echange avec Peau Metal/Au contact d\'une Peau Metal
+96,next,97,Niveau 26
+97,previous,96,Niveau 26
+98,next,99,Niveau 28
+99,previous,98,Niveau 28
+100,next,101,Niveau 30
+101,previous,100,Niveau 30
+102,next,103,Pierre Plante
+103,previous,102,Pierre Plante
+104,next,105,Niveau 28
+105,previous,104,Niveau 28
+106,previous,236,Niveau 20 + Attaque > Defense
+107,previous,236,Niveau 20 + Attaque < Defense
+108,next,463,Attaque Roulade + 1 niveau
+109,next,110,Niveau 35
+110,previous,109,Niveau 35
+111,next,112,Niveau 42
+112,previous,111,Niveau 42
+112,next,464,Echange avec Protecteur/Contact d\'un Protecteur
+113,next,242,Bonheur
+114,next,465,Pouvoir Antique + 1 niveau
+116,next,117,Niveau 32
+117,previous,116,Niveau 32
+117,next,230,Echange avec ecaille Draco
+118,next,119,Niveau 33
+119,previous,118,Niveau 33
+120,next,121,Pierre Eau
+121,previous,120,Pierre Eau
+122,previous,439,+1 Niveau avec Copie
+123,next,212,Echange avec Peau Metal/Au contact d\'une Peau Metal
+124,previous,238,Niveau 30
+125,previous,239,Niveau 30
+125,next,466,Echange avec electriseur/Contact d\'un electriseur
+126,previous,240,Niveau 30
+126,next,467,Echange avec Magmariseur/Contact d\'un Magmariseur
+129,next,130,Niveau 20
+130,previous,129,Niveau 20
+133,next,134,Pierre Eau
+134,previous,133,Pierre Eau
+135,previous,133,Pierre Foudre
+136,previous,133,Pierre Feu
+138,next,139,Niveau 40
+139,previous,138,Niveau 40
+140,next,141,Niveau 40
+141,previous,140,Niveau 40
+143,previous,143,Bonheur
+147,next,148,Niveau 30
+148,previous,147,Niveau 30
+148,next,149,Niveau 55
+149,previous,147,Niveau 30
+152,next,153,Niveau 16
+153,previous,152,Niveau 16
+153,next,154,Niveau 32
+154,previous,152,Niveau 16
+156,next,157,Niveau 36
+158,next,159,Niveau 18
+159,previous,158,Niveau 18
+159,next,160,Niveau 30
+160,previous,158,Niveau 18
+161,next,162,Niveau 15
+162,previous,161,Niveau 15
+163,next,164,Niveau 20
+164,previous,163,Niveau 20
+165,next,166,Niveau 18
+166,previous,165,Niveau 18
+167,next,168,Niveau 22
+168,previous,167,Niveau 22
+169,previous,41,Niveau 22
+170,next,171,Niveau 27
+171,previous,170,Niveau 27
+172,next,25,Bonheur
+173,next,35,Bonheur
+174,next,39,Bonheur
+175,next,176,+1 Niveau + Bonheur
+176,previous,175,+1 Niveau + Bonheur
+176,next,468,Pierre eclat
+177,next,178,Niveau 25
+178,previous,177,Niveau 25
+179,next,180,Niveau 15
+180,previous,179,Niveau 15
+180,next,181,Niveau 30
+181,previous,179,Niveau 15
+182,previous,43,Niveau 21
+183,previous,298,+1 Niveau + Bonheur
+183,next,184,Niveau 18
+184,previous,298,+1 Niveau + Bonheur
+185,previous,438,Connaitre Copie + 1 Niveau
+186,previous,60,Niveau 25
+187,next,188,Niveau 18
+188,previous,187,Niveau 18
+188,next,189,Niveau 27
+189,previous,187,Niveau 18
+190,next,424,+1 Niveau avec Coup Double
+191,next,192,Pierre Soleil
+192,previous,191,Pierre Soleil
+193,next,469,+1 Niveau avec Pouvoir Antique
+194,next,195,Niveau 20
+195,previous,194,Niveau 20
+196,previous,133,Bonheur + Jour + 1 niveau + aucune capacite Fee
+197,previous,133,Bonheur + Nuit + 1 niveau + aucune capacite Fee
+198,next,430,Pierre Nuit
+199,previous,79,Echange Ramoloss avec Roche Royale
+200,next,429,Pierre Nuit
+202,previous,360,Niveau 15
+203,next,981,+1 Niveau avec Double Laser
+204,next,205,Niveau 31
+205,previous,204,Niveau 31
+206,next,982,+1 Niveau avec Hyperceuse
+209,next,210,Niveau 23
+210,previous,209,Niveau 23
+215,next,461,+1 Niveau avec Griffe Rasoir / Contact d\'une Griffe Rasoir
+216,next,217,Niveau 30
+217,previous,216,Niveau 30
+217,next,901,Bloc de Tourbe en nuit de pleine lune
+218,next,219,Niveau 38
+219,previous,218,Niveau 38
+220,next,221,Niveau 33
+221,previous,220,Niveau 33
+221,next,473,+1 Niveau avec Pouvoir Antique
+223,next,224,Niveau 25
+224,previous,223,Niveau 25
+226,previous,458,Gain de niveau avec Remoraid dans l\'equipe
+228,next,229,Niveau 24
+229,previous,228,Niveau 24
+230,previous,116,Niveau 32
+231,next,232,Niveau 25
+232,previous,231,Niveau 25
+234,next,899,20x capacite Sprint Bouclier sous Style Rapide
+236,next,106,Niveau 20 + Attaque > Defense
+237,previous,236,Niveau 20 + Attaque = Defense
+238,next,124,Niveau 30
+239,next,125,Niveau 30
+240,next,126,Niveau 30
+246,next,247,Niveau 30
+247,previous,246,Niveau 30
+247,next,248,Niveau 55
+248,previous,246,Niveau 30
+252,next,253,Niveau 16
+253,previous,252,Niveau 16
+253,next,254,Niveau 36
+254,previous,252,Niveau 16
+255,next,256,Niveau 16
+256,previous,255,Niveau 16
+256,next,257,Niveau 36
+257,previous,255,Niveau 16
+258,next,259,Niveau 16
+259,previous,258,Niveau 16
+259,next,260,Niveau 36
+260,previous,258,Niveau 16
+261,next,262,Niveau 18
+262,previous,261,Niveau 18
+263,next,264,Niveau 20
+264,previous,263,Niveau 20
+265,next,266,Niveau 7
+266,previous,265,Niveau 7
+266,next,267,Niveau 10
+267,previous,265,Niveau 7
+268,previous,265,Niveau 7
+268,next,269,Niveau 10
+269,previous,265,Niveau 7
+270,next,271,Niveau 14
+271,previous,270,Niveau 14
+271,next,272,Pierre Eau
+272,previous,270,Niveau 14
+273,next,274,Niveau 14
+274,previous,273,Niveau 14
+274,next,275,Pierre Plante
+275,previous,273,Niveau 14
+276,next,277,Niveau 22
+277,previous,276,Niveau 22
+278,next,279,Niveau 25
+279,previous,278,Niveau 25
+280,next,281,Niveau 20
+281,previous,280,Niveau 20
+281,next,282,Niveau 30
+282,previous,280,Niveau 20
+283,next,284,Niveau 22
+284,previous,283,Niveau 22
+285,next,286,Niveau 23
+286,previous,285,Niveau 23
+287,next,288,Niveau 18
+288,previous,287,Niveau 18
+288,next,289,Niveau 36
+289,previous,287,Niveau 18
+290,next,291,Niveau 20
+291,previous,290,Niveau 20
+292,previous,290,Niveau 20 + Pokeball + un emplacement de libre dans l\'equipe
+293,next,294,Niveau 20
+294,previous,293,Niveau 20
+294,next,295,Niveau 40
+295,previous,293,Niveau 20
+296,next,297,Niveau 24
+297,previous,296,Niveau 24
+298,next,183,Bonheur
+300,next,301,Pierre Lune
+301,previous,300,Pierre Lune
+304,next,305,Niveau 32
+305,previous,304,Niveau 32
+305,next,306,Niveau 42
+306,previous,304,Niveau 32
+307,next,308,Niveau 37
+308,previous,307,Niveau 37
+309,next,310,Niveau 26
+310,previous,309,Niveau 26
+315,previous,406,Bonheur + Jour + 1 niveau
+315,next,407,Pierre eclat
+316,next,317,Niveau 26
+317,previous,316,Niveau 26
+318,next,319,Niveau 30
+319,previous,318,Niveau 30
+320,next,321,Niveau 40
+321,previous,320,Niveau 40
+322,next,323,Niveau 33
+323,previous,322,Niveau 33
+325,next,326,Niveau 32
+326,previous,325,Niveau 32
+328,next,329,Niveau 35
+329,previous,328,Niveau 35
+329,next,330,Niveau 45
+330,previous,328,Niveau 35
+331,next,332,Niveau 32
+332,previous,331,Niveau 32
+333,next,334,Niveau 35
+334,previous,333,Niveau 35
+339,next,340,Niveau 30
+340,previous,339,Niveau 30
+341,next,342,Niveau 30
+342,previous,341,Niveau 30
+343,next,344,Niveau 36
+344,previous,343,Niveau 36
+345,next,346,Niveau 40
+346,previous,345,Niveau 40
+347,next,348,Niveau 40
+348,previous,347,Niveau 40
+353,next,354,Niveau 37
+354,previous,353,Niveau 37
+355,next,356,Niveau 37
+356,previous,355,Niveau 37
+358,previous,433,+1 Niveau + Nuit + Bonheur
+360,next,202,Niveau 15
+361,next,362,Niveau 42
+362,previous,361,Niveau 42
+363,next,364,Niveau 32
+364,previous,363,Niveau 32
+364,next,365,Niveau 44
+365,previous,363,Niveau 32
+366,next,367,Echange avec Dent Ocean
+367,previous,366,Echange avec Dent Ocean
+368,previous,366,Echange avec ecaille Ocean
+371,next,372,Niveau 30
+372,previous,371,Niveau 30
+372,next,373,Niveau 50
+373,previous,371,Niveau 30
+374,next,375,Niveau 20
+375,previous,374,Niveau 20
+375,next,376,Niveau 45
+376,previous,374,Niveau 20
+387,next,388,Niveau 18
+388,previous,387,Niveau 18
+388,next,389,Niveau 32
+389,previous,387,Niveau 18
+390,next,391,Niveau 14
+391,previous,390,Niveau 14
+391,next,392,Niveau 36
+392,previous,390,Niveau 14
+393,next,394,Niveau 16
+394,previous,393,Niveau 16
+394,next,395,Niveau 36
+395,previous,393,Niveau 16
+396,next,397,Niveau 14
+397,previous,396,Niveau 14
+397,next,398,Niveau 34
+398,previous,396,Niveau 14
+399,next,400,Niveau 15
+400,previous,399,Niveau 15
+401,next,402,Niveau 10
+402,previous,401,Niveau 10
+403,next,404,Niveau 15
+404,previous,403,Niveau 15
+404,next,405,Niveau 30
+405,previous,403,Niveau 15
+406,next,315,Bonheur + Jour + 1 niveau
+407,previous,406,Bonheur + Jour + 1 niveau
+408,next,409,Niveau 30
+409,previous,408,Niveau 30
+410,next,411,Niveau 30
+411,previous,410,Niveau 30
+412,next,413,Mâle + Niveau 20
+413,previous,412,Femelle + Niveau 20
+414,previous,412,Mâle + Niveau 20
+415,next,416,Femelle + Niveau 21
+416,previous,415,Femelle + Niveau 21
+418,next,419,Niveau 26
+419,previous,418,Niveau 26
+420,next,421,Niveau 25
+421,previous,420,Niveau 25
+422,next,423,Niveau 30
+423,previous,422,Niveau 30
+424,previous,190,+1 Niveau avec Coup Double
+425,next,426,Niveau 28
+426,previous,425,Niveau 28
+427,next,428,Bonheur
+428,previous,427,Bonheur
+429,previous,200,Pierre Nuit
+430,previous,198,Pierre Nuit
+431,next,432,Niveau 38
+432,previous,431,Niveau 38
+433,next,358,Bonheur + Nuit + 1 niveau
+434,next,435,Niveau 34
+435,previous,434,Niveau 34
+436,next,437,Niveau 33
+437,previous,436,Niveau 33
+438,next,185,Connaitre Copie + 1 Niveau
+439,next,122,Connaitre Copie + 1 Niveau
+443,next,444,Niveau 24
+444,previous,443,Niveau 24
+444,next,445,Niveau 48
+445,previous,443,Niveau 24
+446,next,446,Bonheur
+447,next,448,Bonheur + Jour + 1 niveau
+448,previous,447,Bonheur + Jour + 1 niveau
+449,next,450,Niveau 34
+450,previous,449,Niveau 34
+451,next,452,Niveau 40
+452,previous,451,Niveau 40
+453,next,454,Niveau 37
+454,previous,453,Niveau 37
+456,next,457,Niveau 31
+457,previous,456,Niveau 31
+458,next,226,Gain de niveau avec Remoraid dans l\'equipe
+459,next,460,Niveau 40
+460,previous,459,Niveau 40
+462,previous,81,Niveau 30
+463,previous,108,+1 Niveau avec Roulade
+464,previous,111,Niveau 42
+465,previous,114,+1 Niveau avec Pouvoir Antique
+466,previous,239,Niveau 30
+467,previous,240,Niveau 30
+468,previous,175,+1 Niveau + Bonheur
+469,previous,193,+1 Niveau avec Pouvoir Antique
+470,previous,133,Pierre Plante
+473,previous,220,Niveau 33
+475,previous,280,Niveau 20
+477,previous,355,Niveau 37
+478,previous,361,Femelle + Pierre Aube
+495,next,496,Niveau 17
+496,previous,495,Niveau 17
+496,next,497,Niveau 36
+497,previous,495,Niveau 17
+498,next,499,Niveau 17
+499,previous,498,Niveau 17
+499,next,500,Niveau 36
+500,previous,498,Niveau 17
+501,next,502,Niveau 17
+502,previous,501,Niveau 17
+502,next,503,Niveau 36
+503,previous,501,Niveau 17
+504,next,505,Niveau 20
+505,previous,504,Niveau 18
+506,next,507,Niveau 16
+507,previous,506,Niveau 16
+507,next,508,Niveau 32
+508,previous,506,Niveau 16
+509,next,510,Niveau 20
+510,previous,509,Niveau 20
+511,next,512,Pierre Plante
+512,previous,511,Pierre Plante
+513,next,514,Pierre Feu
+514,previous,513,Pierre Feu
+515,next,516,Pierre Eau
+516,previous,515,Pierre Eau
+517,next,518,Pierre Lune
+518,previous,517,Pierre Lune
+519,next,520,Niveau 21
+520,previous,519,Niveau 21
+520,next,521,Niveau 32
+521,previous,519,Niveau 21
+522,next,523,Niveau 27
+523,previous,522,Niveau 27
+524,next,525,Niveau 25
+525,previous,524,Niveau 25
+525,next,526,Echange
+526,previous,524,Niveau 25
+527,next,528,Bonheur
+528,previous,527,Bonheur
+529,next,530,Niveau 31
+530,previous,529,Niveau 31
+532,next,533,Niveau 25
+533,previous,532,Niveau 25
+533,next,534,Echange
+534,previous,532,Niveau 25
+535,next,536,Niveau 25
+536,previous,535,Niveau 25
+536,next,537,Niveau 36
+537,previous,535,Niveau 25
+540,next,541,Niveau 20
+541,previous,540,Niveau 20
+541,next,542,Bonheur
+542,previous,540,Niveau 20
+543,next,544,Niveau 22
+544,previous,543,Niveau 22
+544,next,545,Niveau 30
+545,previous,543,Niveau 22
+546,next,547,Pierre Soleil
+547,previous,546,Pierre Soleil
+548,next,549,Pierre Soleil
+549,previous,548,Pierre Soleil
+550,next,902,Si Motif Blanc + Avoir perdu 294 PV ou plus par contrecoup
+551,next,552,Niveau 29
+552,previous,551,Niveau 29
+552,next,553,Niveau 40
+553,previous,551,Niveau 29
+554,next,555,Niveau 35
+555,previous,554,Niveau 35
+557,next,558,Niveau 34
+558,previous,557,Niveau 34
+559,next,560,Niveau 39
+560,previous,559,Niveau 39
+562,next,563,Niveau 34
+563,previous,562,Niveau 34
+564,next,565,Niveau 37
+565,previous,564,Niveau 37
+566,next,567,Niveau 37
+567,previous,566,Niveau 37
+568,next,569,Niveau 36
+569,previous,568,Niveau 36
+570,next,571,Niveau 30
+571,previous,570,Niveau 30
+572,next,573,Pierre eclat
+573,previous,572,Pierre eclat
+574,next,575,Niveau 32
+575,previous,574,Niveau 32
+575,next,576,Niveau 41
+576,previous,574,Niveau 32
+577,next,578,Niveau 32
+578,previous,577,Niveau 32
+578,next,579,Niveau 41
+579,previous,577,Niveau 32
+580,next,581,Niveau 35
+581,previous,580,Niveau 35
+582,next,583,Niveau 35
+583,previous,582,Niveau 35
+583,next,584,Niveau 47
+584,previous,582,Niveau 35
+585,next,586,Niveau 34
+586,previous,585,Niveau 34
+588,next,589,Echange avec Escargaume
+589,previous,588,Echange avec Escargaume
+590,next,591,Niveau 35
+591,previous,590,Niveau 39
+592,next,593,Niveau 40
+593,previous,592,Niveau 40
+595,next,596,Niveau 36
+596,previous,595,Niveau 36
+597,next,598,Niveau 40
+598,previous,597,Niveau 40
+599,next,600,Niveau 38
+600,previous,599,Niveau 38
+600,next,601,Niveau 49
+601,previous,599,Niveau 38
+602,next,603,Niveau 38
+603,previous,602,Niveau 39
+603,next,604,Pierre Foudre
+604,previous,602,Niveau 39
+605,next,606,Niveau 42
+606,previous,605,Niveau 42
+607,next,608,Niveau 41
+608,previous,607,Niveau 41
+608,next,609,Pierre Nuit
+609,previous,607,Niveau 41
+610,next,611,Niveau 38
+611,previous,610,Niveau 38
+611,next,612,Niveau 48
+612,previous,610,Niveau 38
+613,next,614,Niveau 37
+614,previous,613,Niveau 37
+616,next,617,Echange avec Carabing
+617,previous,616,Echange avec Carabing
+619,next,620,Niveau 50
+620,previous,619,Niveau 50
+622,next,623,Niveau 43
+623,previous,622,Niveau 43
+624,next,625,Niveau 52
+625,previous,624,Niveau 52
+625,next,983,Vaincre 3 Scalproie avec Embleme du General + 1 Niveau
+627,next,628,Niveau 54
+628,previous,627,Niveau 54
+629,next,630,Niveau 54
+630,previous,629,Niveau 54
+633,next,634,Niveau 50
+634,previous,633,Niveau 50
+634,next,635,Niveau 64
+635,previous,633,Niveau 50
+636,next,637,Niveau 59
+637,previous,636,Niveau 59
+650,next,651,Niveau 16
+651,previous,650,Niveau 16
+651,next,652,Niveau 36
+652,previous,650,Niveau 16
+653,next,654,Niveau 16
+654,previous,653,Niveau 16
+654,next,655,Niveau 36
+655,previous,653,Niveau 16
+656,next,657,Niveau 16
+657,previous,656,Niveau 16
+657,next,658,Niveau 36
+658,previous,656,Niveau 16
+659,next,660,Niveau 20
+660,previous,659,Niveau 20
+661,next,662,Niveau 17
+662,previous,661,Niveau 17
+662,next,663,Niveau 35
+663,previous,661,Niveau 17
+664,next,665,Niveau 9
+665,previous,664,Niveau 9
+665,next,666,Niveau 12
+666,previous,664,Niveau 9
+667,next,668,Niveau 35
+668,previous,667,Niveau 35
+669,next,670,Niveau 19
+670,previous,669,Niveau 19
+670,next,671,Pierre eclat
+671,previous,669,Niveau 19
+672,next,673,Niveau 32
+673,previous,672,Niveau 32
+674,next,675,Niveau 32 + Pokemon type Tenebres dans l\'equipe
+675,previous,674,Niveau 32 + Pokemon type Tenebres dans l\'equipe
+677,next,678,Niveau 25
+678,previous,677,Niveau 25
+679,next,680,Niveau 35
+680,previous,679,Niveau 35
+680,next,681,Pierre Nuit
+681,previous,679,Niveau 35
+682,next,683,Echange avec Sachet Senteur
+683,previous,682,Echange avec Sachet Senteur
+684,next,685,Echange avec Chantibonbon
+685,previous,684,Echange avec Chantibonbon
+686,next,687,Niveau 30 en retournant la console de jeu
+687,previous,686,Niveau 30 en retournant la console de jeu
+688,next,689,Niveau 39
+689,previous,688,Niveau 39
+690,next,691,Niveau 48
+691,previous,690,Niveau 48
+692,next,693,Niveau 37
+693,previous,692,Niveau 37
+694,next,695,Pierre Soleil
+695,previous,694,Pierre Soleil
+696,next,697,Niveau 39 durant la journee
+697,previous,696,Niveau 39 durant la journee
+698,next,699,Niveau 39 pendant la nuit
+699,previous,698,Niveau 39 pendant la nuit
+700,previous,133,Bonheur + Nuit + 1 niveau + aucune capacite Fee
+704,next,705,Niveau 40
+705,previous,704,Niveau 40
+705,next,706,Niveau 50 sous la pluie
+706,previous,704,Niveau 40
+708,next,709,Echange
+709,previous,708,Echange
+710,next,711,Echange
+711,previous,710,Echange
+712,next,713,Niveau 37
+713,previous,712,Niveau 37
+714,next,715,Niveau 48
+715,previous,714,Niveau 48
+722,next,723,Niveau 17
+723,previous,722,Niveau 17
+724,previous,722,Niveau 17
+725,next,726,Niveau 17
+726,previous,725,Niveau 17
+726,next,727,Niveau 34
+727,previous,725,Niveau 17
+728,next,729,Niveau 17
+729,previous,728,Niveau 17
+729,next,730,Niveau 34
+730,previous,728,Niveau 17
+731,next,732,Niveau 14
+732,previous,731,Niveau 14
+732,next,733,Niveau 28
+733,previous,732,Niveau 14
+734,next,735,Niveau 20 la journee
+735,previous,734,Niveau 20 la journee
+736,next,737,Niveau 20
+737,previous,736,Niveau 20
+738,previous,736,Niveau 20
+742,next,743,Niveau 25
+743,previous,742,Niveau 25
+747,next,748,Niveau 38
+748,previous,747,Niveau 38
+749,next,750,Niveau 30
+750,previous,749,Niveau 30
+751,next,752,Niveau 22
+752,previous,751,Niveau 22
+753,next,754,Niveau 34 en journee
+754,previous,753,Niveau 34 en journee
+755,next,756,Niveau 24
+756,previous,755,Niveau 24
+757,next,758,Niveau 33 seulement si femelle
+758,previous,757,Niveau 33 seulement si femelle
+759,next,760,Niveau 27
+760,previous,759,Niveau 27
+761,next,762,Niveau 18
+762,previous,761,Niveau 18
+762,next,763,+1 Niveau avec Ecrasement
+763,previous,761,Niveau 18
+767,next,768,Niveau 30
+768,previous,767,Niveau 30
+769,next,770,Niveau 42
+770,previous,769,Niveau 42
+772,next,773,+1 Niveau + Bonheur Max
+773,previous,772,+1 Niveau + Bonheur Max
+782,next,783,Niveau 35
+783,previous,782,Niveau 35
+783,next,784,Niveau 45
+784,previous,782,Niveau 35
+789,next,790,Niveau 43
+790,previous,789,Niveau 43
+790,next,791,Niveau 53
+791,previous,789,undefined
+792,previous,789,Niveau 43
+803,next,804,+1 Niveau avec Dracochoc
+804,previous,803,+1 Niveau avec Dracochoc
+808,next,809,400 Bonbons Meltan
+810,next,811,Niveau 16
+811,previous,810,Niveau 16
+811,next,812,Niveau 35
+812,previous,810,Niveau 16
+813,next,814,Niveau 16
+814,previous,813,Niveau 16
+814,next,815,Niveau 35
+815,previous,813,Niveau 16
+816,next,817,Niveau 16
+817,previous,816,Niveau 16
+817,next,818,Niveau 35
+818,previous,816,Niveau 16
+819,next,820,Niveau 24
+820,previous,819,Niveau 24
+821,next,822,Niveau 18
+822,previous,821,Niveau 18
+822,next,823,Niveau 38
+823,previous,821,Niveau 18
+824,next,825,Niveau 10
+825,previous,824,Niveau 10
+825,next,826,Niveau 30
+826,previous,824,Niveau 10
+827,next,828,Niveau 18
+828,previous,827,Niveau 18
+829,next,830,Niveau 20
+830,previous,829,Niveau 20
+831,next,832,Niveau 24
+832,previous,831,Niveau 24
+833,next,834,Niveau 22
+834,previous,833,Niveau 22
+835,next,836,Niveau 25
+836,previous,835,Niveau 25
+837,next,838,Niveau 18
+838,previous,837,Niveau 18
+838,next,839,Niveau 34
+839,previous,837,Niveau 18
+840,next,841,Avec une Pomme Acidulee
+841,previous,840,Avec une Pomme Acidulee
+842,previous,840,Avec une Pomme Sucree
+843,next,844,Niveau 36
+844,previous,843,Niveau 36
+846,next,847,Niveau 26
+847,previous,846,Niveau 26
+848,next,849,Niveau 30
+849,previous,848,Niveau 30
+850,next,851,Niveau 28
+851,previous,850,Niveau 28
+852,next,853,+1 Niveau avec Provoc
+853,previous,852,+1 Niveau avec Provoc
+854,next,855,Avec une Theiere Felee ou une Theiere ebrechee
+855,previous,854,Avec une Theiere Felee ou une Theiere ebrechee
+856,next,857,Niveau 32
+857,previous,856,Niveau 32
+857,next,858,Niveau 42
+858,previous,856,Niveau 32
+859,next,860,Niveau 32
+860,previous,859,Niveau 32
+860,next,861,Niveau 42
+861,previous,859,Niveau 32
+862,previous,263,Niveau 20
+863,previous,52,Niveau 28
+864,previous,222,Niveau 38
+865,previous,83,Infliger 3 coups critiques dans un meme combat
+866,previous,122,Niveau 42
+867,previous,562,Perdre 49 PV ou plus + marcher sous la grande arche de pierres de la Fosse des Sables
+868,next,869,Sucre + tourner sur soi meme
+869,previous,868,Objet en sucre + tourner sur soi meme
+872,next,873,Bonheur + Nuit + 1 niveau
+873,previous,872,Bonheur + Jour + 1 niveau
+878,next,879,Niveau 34
+879,previous,878,Niveau 34
+884,next,1018,Avec un Metal Composite
+885,next,886,Niveau 50
+886,previous,885,Niveau 50
+886,next,887,Niveau 60
+887,previous,885,Niveau 50
+891,next,892,Terminer l\'ascension de la Tour de l\'Eau/Tour des Tenebres
+892,previous,891,Terminer l\'ascension de la Tour de l\'Eau / Tour des Tenebres
+899,previous,234,Utilise 20 fois la capacite Sprint Bouclier sous Style Rapide
+900,previous,123,Avec une obsidienne
+901,previous,216,Niveau 30
+902,previous,550,Si Motif Blanc + Avoir perdu 294 PV ou plus par contrecoup
+903,previous,215,+1 Niveau avec Griffe Rasoir / Contact d\'une Griffe Rasoir
+904,previous,211,Utilise 20 fois ou plus la capacite sous Style Puissant
+906,next,907,Niveau 16
+907,previous,906,Niveau 16
+907,next,908,Niveau 36
+908,previous,906,Niveau 16
+909,next,910,Niveau 16
+910,previous,909,Niveau 16
+910,next,911,Niveau 36
+911,previous,909,Niveau 16
+912,next,913,Niveau 16
+913,previous,912,Niveau 16
+913,next,914,Niveau 36
+914,previous,912,Niveau 16
+915,next,916,Niveau 18
+916,previous,915,Niveau 18
+917,next,918,Niveau 15
+918,previous,917,Niveau 15
+919,next,920,Niveau 24
+920,previous,919,Niveau 24
+921,next,922,Niveau 18
+922,previous,921,Niveau 18
+922,next,923,Marcher 1000 pas avec En Avant ! + 1 Niveau
+923,previous,921,Niveau 18
+924,next,925,Niveau 25 avec gain de niveau en combat
+925,previous,924,Niveau 25 avec gain de niveau en combat
+926,next,927,Niveau 26
+927,previous,926,Niveau 26
+928,next,929,Niveau 25
+929,previous,928,Niveau 25
+929,next,930,Niveau 35
+930,previous,928,Niveau 25
+932,next,933,Niveau 24
+933,previous,932,Niveau 24
+933,next,934,Niveau 38
+934,previous,932,Niveau 24
+935,next,936,Armure de la Fortune
+936,previous,935,Armure de la Fortune
+937,previous,935,Armure de la Rancune
+938,next,939,Pierre Foudre
+939,previous,938,Pierre Foudre
+940,next,941,Niveau 25
+941,previous,940,undefined
+942,next,943,Niveau 30
+943,previous,942,Niveau 30
+944,next,945,Niveau 28
+945,previous,944,Niveau 28
+946,next,947,Marcher 1000 pas avec En Avant ! + 1 Niveau
+947,previous,946,Marcher 1000 pas avec En Avant ! + 1 Niveau
+948,next,949,Niveau 30
+949,previous,948,Niveau 30
+951,next,952,Pierre Feu
+952,previous,951,Pierre Feu
+953,next,954,Marcher 1000 pas avec En Avant ! + 1 Niveau
+954,previous,953,Marcher 1000 pas avec En Avant ! + 1 Niveau
+955,next,956,Niveau 35
+956,previous,955,Niveau 35
+957,next,958,Niveau 24
+958,previous,957,Niveau 24
+959,previous,957,Niveau 24
+960,next,961,Niveau 26
+961,previous,960,Niveau 26
+963,next,964,Niveau 38 en coop
+964,previous,963,Niveau 38 en coop
+965,next,966,Niveau 40
+966,previous,965,Niveau 40
+969,next,970,Niveau 35
+970,previous,969,Niveau 35
+971,next,972,Niveau 30
+972,previous,971,Niveau 30 pendant la nuit
+974,next,975,Pierre Glace
+975,previous,974,Pierre Glace
+979,previous,56,Niveau 28
+980,previous,194,Niveau 20
+981,previous,203,+1 Niveau avec Double Laser
+982,previous,206,+1 Niveau avec Hyperceuse
+983,previous,624,Niveau 52
+996,next,997,Niveau 35
+997,previous,996,Niveau 35
+997,next,998,Niveau 54
+998,previous,996,Niveau 35
+999,next,1000,Collecter 999 Pieces de Mordudor + 1 Niveau
+1000,previous,999,Collecter 999 Pieces de Mordudor + 1 Niveau
+1011,previous,840,Avec une Pomme Nectar
+1011,next,1019,Connaitre Cri Draconique + 1 niveau
+1012,next,1013,Avec un Bol Mediocre ou un Bol Exceptionnel
+1013,previous,1012,Avec un Bol Mediocre ou un Bol Exceptionnel
+1018,previous,884,Avec un Metal Composite
+1019,previous,840,Avec une Pomme Nectar
