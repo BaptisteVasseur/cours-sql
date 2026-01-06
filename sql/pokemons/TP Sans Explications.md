@@ -53,3 +53,21 @@
 - Trouver l'évolution de chaque pokémon de mon équipe 
 - Compter le nombre total de pokémon par dresseur (ceux dans le pc et ceux dans l'équipe)
 - Trouver le pokémon le plus fort en combat multijoueurs
+
+## Partie 5 :
+
+- Afficher le nom des dresseurs avec leur console en majuscule
+- Calculer la puissance totale moyenne des Pokémon (somme de toutes les stats : pv + attaque + défense + attaque_speciale + defense_speciale + vitesse)
+- Trouver le mois de l'année où il y a le plus de combats d'arènes
+- Afficher les Pokémon avec leur catégorie de taille ('Petit' si < 1m, 'Moyen' si entre 1 et 2m, 'Grand' si > 2m)
+- Trouver les dresseurs qui n'ont jamais combattu en arène
+- Calculer le prix moyen des objets par catégorie, triés du plus cher au moins cher
+- Afficher les Pokémon qui ont exactement 2 types
+- Trouver les dresseurs qui possèdent à la fois un Pokémon de type 'Feu' et un de type 'Eau'
+- Calculer le taux de victoire de chaque dresseur en combat multijoueur (nombre de victoires / nombre de combats)
+- Afficher les 5 objets les plus possédés par les dresseurs (en quantité totale)
+- Trouver les arènes qui n'ont jamais été battues
+- Calculer la moyenne d'âge des dresseurs par type de console
+- Afficher les Pokémon stockés dans le PC depuis plus de 30 jours
+- Trouver les paires de Pokémon qui ont des stats d'attaque identiques
+- Calculer le budget total dépensé par chaque dresseur (somme des transactions négatives)

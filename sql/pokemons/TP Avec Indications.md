@@ -61,8 +61,8 @@
 - Lister le nom de tous les surnoms des pokemons dans pokemon_stocke_dans_pc (il ne faut pas de doublons dans la liste, donc si on à 2 pokémons avec le surnom Baptiste, il faut que Baptiste ne soit qu'une seule fois dans la liste)
 > On veux que des valeurs DISTINCTes 
 
-- Lister les arènes créées avant l’année 2014
-> Il faut récupérer que l'année avec une fonction 
+- Lister les arènes créées avant l'année 2014
+> Il faut récupérer que l'année avec EXTRACT(YEAR FROM date_creation) pour PostgreSQL 
 
 - Afficher les objets et leur prix
 > Rien de compliqué, faut juste regarder dans la bonne table et mettre les bonnes colonnes 
@@ -91,8 +91,8 @@
 - Afficher les transactions de type ‘Achat’
 > Celle là elle est donnée, faut juste faire une condition sur le champs 'type' sans rien faire d'autre (c'est pour te repose un peu elle)
 
-- Calculer l’âge des dresseurs en années (approximation)
-> La c'est carrément plus chaud ! Faut faire comme pour les requêtes au dessus (créer une fausse colonne), sauf qu'au lieu de faire une division, il faut faire une soustraction de l'année de NOW() (NOW() = la date d'aujoud'hui avec jour/mois/année) et de l'année de la date_naissance (qui est une date avec un jour/mois/année). Spoiler pour récupérer que l'année dans une date tu dois utiliser la fonction YEAR() (Par exemple YEAR(NOW()) te donne l'année en cours)
+- Calculer l'âge des dresseurs en années (approximation)
+> La c'est carrément plus chaud ! Faut faire comme pour les requêtes au dessus (créer une fausse colonne), sauf qu'au lieu de faire une division, il faut faire une soustraction de l'année de CURRENT_DATE (CURRENT_DATE = la date d'aujourd'hui avec jour/mois/année) et de l'année de la date_naissance (qui est une date avec un jour/mois/année). Spoiler pour récupérer que l'année dans une date tu dois utiliser la fonction EXTRACT(YEAR FROM date) pour PostgreSQL (Par exemple EXTRACT(YEAR FROM CURRENT_DATE) te donne l'année en cours)
 
 ## Partie 3 : 
 
@@ -115,7 +115,7 @@
 > Il va falloir utiliser GROUP BY, COUNT et ORDER BY pour classer les types, puis limiter les résultats avec LIMIT.
 
 - Trouver en quelle année il y a le plus de combats
-> Extraire l'année de la date du combat et utiliser GROUP BY et COUNT
+> Extraire l'année de la date du combat avec EXTRACT(YEAR FROM date_combat) et utiliser GROUP BY et COUNT
 
 - Trouver le pokémon qui est le plus souvent dans une équipe
 > Compter combien de fois chaque Pokémon apparaît dans une équipe et trier pour trouver le plus fréquent.
@@ -133,7 +133,54 @@
 > Plus simple pour se remettre des requêtes hardcore d'avant : il faut joindre les tables des évolutions et des pokémons, en filtrant par l’équipe du dresseur.
 
 - Compter le nombre total de pokémon par dresseur (ceux dans le pc et ceux dans l'équipe)
-> Faire une requête pour compter les Pokémon stockés dans le PC et ceux dans l’équipe, puis une somme des deux résultats (il faut faire un premierselect)
+> Faire une requête pour compter les Pokémon stockés dans le PC et ceux dans l'équipe, puis une somme des deux résultats (il faut faire un premierselect)
 
 - Trouver le dresseur le plus fort en combat multijoueurs
-> Calculer le ration nombre de victoire/ nombre de defaite par joueur 
+> Calculer le ration nombre de victoire/ nombre de defaite par joueur
+
+## Partie 5 :
+
+- Afficher le nom des dresseurs avec leur console en majuscule
+> Utiliser la fonction UPPER() pour convertir le texte en majuscules
+
+- Calculer la puissance totale moyenne des Pokémon (somme de toutes les stats : pv + attaque + défense + attaque_speciale + defense_speciale + vitesse)
+> Additionner toutes les stats dans une colonne calculée, puis utiliser AVG() pour faire la moyenne
+
+- Trouver le mois de l'année où il y a le plus de combats d'arènes
+> Extraire le mois avec EXTRACT(MONTH FROM date_combat), faire un GROUP BY sur le mois et compter
+
+- Afficher les Pokémon avec leur catégorie de taille ('Petit' si < 1m, 'Moyen' si entre 1 et 2m, 'Grand' si > 2m)
+> Utiliser CASE WHEN avec des conditions sur la taille pour créer une nouvelle colonne
+
+- Trouver les dresseurs qui n'ont jamais combattu en arène
+> Utiliser un LEFT JOIN entre dresseur et combats_arenes, puis filtrer avec WHERE pour les dresseurs sans combats (IS NULL)
+
+- Calculer le prix moyen des objets par catégorie, triés du plus cher au moins cher
+> Faire un GROUP BY sur la catégorie avec AVG(prix), puis ORDER BY décroissant
+
+- Afficher les Pokémon qui ont exactement 2 types
+> Joindre pokemon_types, faire un GROUP BY sur pokedex_id et utiliser HAVING COUNT(*) = 2
+
+- Trouver les dresseurs qui possèdent à la fois un Pokémon de type 'Feu' et un de type 'Eau'
+> Faire des jointures multiples et utiliser HAVING avec COUNT(DISTINCT type) pour vérifier qu'ils ont les deux types
+
+- Calculer le taux de victoire de chaque dresseur en combat multijoueur (nombre de victoires / nombre de combats)
+> Utiliser CASE WHEN pour compter les victoires, puis diviser par le nombre total de combats avec COUNT(*)
+
+- Afficher les 5 objets les plus possédés par les dresseurs (en quantité totale)
+> Faire un SUM(quantite) dans objets_dresseurs avec GROUP BY sur l'objet, ORDER BY décroissant et LIMIT 5
+
+- Trouver les arènes qui n'ont jamais été battues
+> LEFT JOIN entre arenes et combats_arenes avec une condition sur resultat = 'Victoire', puis filtrer avec WHERE IS NULL
+
+- Calculer la moyenne d'âge des dresseurs par type de console
+> Calculer l'âge avec EXTRACT(YEAR FROM CURRENT_DATE) - EXTRACT(YEAR FROM date_naissance), puis faire un GROUP BY sur console avec AVG()
+
+- Afficher les Pokémon stockés dans le PC depuis plus de 30 jours
+> Utiliser une condition sur la différence entre CURRENT_DATE et date_stockage : WHERE CURRENT_DATE - date_stockage > 30
+
+- Trouver les paires de Pokémon qui ont des stats d'attaque identiques
+> Faire un self-join sur la table pokemons avec une condition sur attaque égale et pokedex_id différent
+
+- Calculer le budget total dépensé par chaque dresseur (somme des transactions négatives)
+> Faire un SUM(montant) sur transactions avec un WHERE montant < 0 ou type = 'Achat', GROUP BY id_dresseur 
